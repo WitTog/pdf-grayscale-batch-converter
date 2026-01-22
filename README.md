@@ -81,18 +81,23 @@ cd 你的仓库名
 🐛 常见问题速查
 
 • Q：运行报错「No module named 'fitz'」？
+
 A：确保安装的是 PyMuPDF（而非 fitz），执行 pip uninstall fitz -y && pip install PyMuPDF
 
 • Q：运行后闪退/无界面？
+
 A：安装稳定版本依赖：pip install PyMuPDF==1.21.0，并确保 Python 版本≥3.6
 
 • Q：转换后文件打不开？
+
 A：原文件可能损坏，查看日志区错误提示，确认原文件是否能正常打开
 
 • Q：Mac 提示「tkinter 模块缺失」？
+
 A：执行 brew install python-tk（需先安装 Homebrew），或重新安装带 tkinter 的 Python 版本
 
 • Q：无写入权限提示？
+
 A：更换输出文件夹（如桌面），或右键文件夹→属性→安全→允许写入权限
 
 🛠️ 技术细节
