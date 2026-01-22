@@ -38,9 +38,9 @@ psutil>=5.8.0
 
 1. 克隆仓库到本地：
 
-git clone https://github.com/你的用户名/你的仓库名.git
+git clone https://github.com/WitTog/pdf-grayscale-batch-converter/tree/main
 
-cd 你的仓库名
+cd 仓库名
 
 2. 安装依赖（见上方命令）
 
